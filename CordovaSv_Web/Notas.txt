@@ -1,0 +1,41 @@
+/*Selector del tipo: Universal*/
+/*------------------------------
+* {
+	color: red;
+}
+*/
+
+/*Selector del tipo: De tipo*/
+/*------------------------------
+h1 {
+	color: red;
+}
+*/
+
+/*Selector del tipo: Clases: Cuando el atributo en HTML es class*/
+/*------------------------------
+.ejemploSelecto{
+	color: red;
+}
+*/
+
+/*Selector del tipo: ID, Cuando el atributo en HTML es id/
+/*------------------------------
+#ejemploSelector{
+	color: red;
+}
+*/
+
+/*Selector del tipo: Por atributo, Cuando el atributo en HTML es un atributo definido por nosotros*/
+/*------------------------------
+[atrib="hola"]{
+	color: red;
+}
+*/
+
+/*Selector del tipo: Pseudo-Clases, tipo evento*/
+/*------------------------------
+h1:hover{
+	color: red;
+}
+*/
