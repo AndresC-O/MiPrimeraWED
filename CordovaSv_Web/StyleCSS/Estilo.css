@@ -16,6 +16,8 @@
 	border: 4px solid #0FF0B2;
 	box-shadow: 2px 4px 30px 0 #000000;
 	text-shadow: 1px 2px 15px #FFFFFF;
+	position: sticky;
+	top: 0;
 }
 
 .btnAqui{
@@ -60,9 +62,27 @@
 .fixed{
 	background-color: #0BB7A6;
 	position: sticky;
-	opacity: .4;
-	top: 0;
-	margin-top: 100px;
+	opacity: 100%;
+	top: 60px;
+	margin-top: 10px;
+}
+
+#h2fix {
+	font-size: 1.7em;
+	text-align: center;
+}
+
+.fixed2{
+	background-color: #0BB7A6;
+	position: sticky;
+	opacity: 100%;
+	top: 100px;
+	margin-top: 10px;
+}
+
+#h2fix2 {
+	font-size: 1.7em;
+	text-align: center;
 }
 
 .workWithDisplay div{
@@ -72,4 +92,6 @@
 	border: 10px solid yellow;
 	background-color: red;
 	display: inline-block;
+	overflow: scroll;
+	overflow-x: hidden;
 }
