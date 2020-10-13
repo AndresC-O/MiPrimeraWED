@@ -95,3 +95,20 @@
 	overflow: scroll;
 	overflow-x: hidden;
 }
+
+form{
+	margin: 10px auto;
+	display: block;
+	padding: 10px;
+}
+
+.contra{
+	padding: 15px;
+	width: 400px;
+	border-radius: 20px;
+	outline: none;
+}
+
+.contra::placeholder{
+	color: red;
+}
