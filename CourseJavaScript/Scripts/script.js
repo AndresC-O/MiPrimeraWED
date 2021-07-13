@@ -45,7 +45,7 @@
 
 //Clase #3--------------------------------------------
 
-//Strings  
+//Strings
 //let cadena = "Hola Mundo";
 //
 //console.log(cadena.length);//cantidad de caracteres.
@@ -87,12 +87,13 @@
 //console.log(Math.E);
 //console.log(Math.PI);
 //
-//let numero = 2.6;
-//console.log(Math.abs(numero));//Valor Absoluto
-//console.log(Math.ceil(numero));//Redondea hacia el numero mas grande
-//console.log(Math.floor(numero));//Redondea hacia el numero mas pequenio
-//console.log(Math.pow(numero, 2));//Resolver potencia
-//console.log(Math.round(Math.random()*100));//Genera random entre 0 y 1
-//console.log(Math.random()*(10 -5) + 5);//numero entre 5 y 10
-//console.log(Math.sign(numero));//Devuelve el signo del numero
-//console.log(Math.sqrt(9));//devuelve raiz cuadrada de x
+// let numero = 2.6;
+// console.log("=>Valor: " + numero)
+// console.log("=>Valor absoluto: " + Math.abs(numero));//Valor Absoluto
+// console.log(Math.ceil(numero));//Redondea hacia el numero mas grande
+// console.log(Math.floor(numero));//Redondea hacia el numero mas pequenio
+// console.log(Math.pow(numero, 2));//Resolver potencia
+// console.log(Math.round(Math.random()*100));//Genera random entre 0 y 1
+// console.log(Math.random()*(10 -5) + 5);//numero entre 5 y 10
+// console.log(Math.sign(numero));//Devuelve el signo del numero
+// console.log(Math.sqrt(9));//devuelve raiz cuadrada de x
