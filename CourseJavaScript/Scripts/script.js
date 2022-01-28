@@ -168,3 +168,34 @@
 // else if(respuesta == false){
 //     console.log(`Respuesta tiene el valor false`);
 // }
+
+//--------------------------------
+//Ejercicio de ordenar 3 numeros de mayor a menor
+//--------------------------------
+// const numeros = document.getElementById('number');
+// const resultado = document.getElementById('result');
+
+// let a = prompt("Ingrese el primer numero");
+// let b = prompt("Ingrese el segundo numero");
+// let c = prompt("Ingrese el tercer numero");
+
+// numeros.textContent = `Los numeros ingresados en orden fueron: ${a}, ${b}, ${c}`;
+
+// if(a > b && a > c & b > c){
+//     resultado.textContent=`Ordenados de mayor a menor (1): ${a}, ${b}, ${c}`;
+// }
+// else if(b > a && b > c && a > c){
+//     resultado.textContent=`Ordenados de mayor a menor (2): ${b}, ${a}, ${c}`;
+// }
+// else if(c > b && b > a && c > a){
+//     resultado.textContent=`Ordenados de mayor a menor (3): ${c}, ${b}, ${a}`;
+// }
+// else if(a > c && c > b && a > b){
+//     resultado.textContent=`Ordenados de mayor a menor (4): ${a}, ${c}, ${b}`;
+// }
+// else if(b > c && b > a && c > a){
+//     resultado.textContent=`Ordenados de mayor a menor (5): ${b}, ${c}, ${a}`;
+// }
+// else if(c > a && c > b && a > b){
+//     resultado.textContent=`Ordenados de mayor a menor (6): ${c}, ${a}, ${b}`;
+// }
