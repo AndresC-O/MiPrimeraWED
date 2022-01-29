@@ -199,3 +199,31 @@
 // else if(c > a && c > b && a > b){
 //     resultado.textContent=`Ordenados de mayor a menor (6): ${c}, ${a}, ${b}`;
 // }
+
+// Condicional Switch
+// let num = 10;
+
+// switch(num){
+//     case 1: console.log("Numero tiene 1")
+//     break;
+
+//     case 2: console.log("Numero tiene 2")
+//     break;
+
+//     case 3: console.log("Numero tiene 3")
+//     break;
+
+//     case 4: console.log("Numero tiene 4")
+//     break;
+
+//     default: {
+//         console.log("Not found")
+//         break;
+//     }
+// }
+
+// Operador ternario
+
+let num = 3;
+
+(num % 2 == 0) ? console.log(`${num} es par`) : console.log(`"${num} es impar`);
