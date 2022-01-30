@@ -224,6 +224,51 @@
 
 // Operador ternario
 
-let num = 3;
+// let num = 8;
+// (num % 2 == 0) ? console.log(`${num} es par`) : console.log(`"${num} es impar`);
 
-(num % 2 == 0) ? console.log(`${num} es par`) : console.log(`"${num} es impar`);
+
+//Arrays
+let names = ["Maria", "Daniela", "Andres", "Gonzalo", "Maria Angela"]
+let ages = [10,16,39,47,52];
+let jobs = ["butcher", "scientist", "designer", "teacher"]
+let example = 1;
+
+console.log(`${names[3]} is ${ages[0]} years old and is ${jobs[2]}.`);
+
+console.log(names.length)
+console.log(Array.isArray(example)) //--Array.isArray(arrayName)-- Nos devuelve un valor booleano confirmando si es o no un arreglo.
+
+console.log("--------")
+console.log(names)
+names.shift() // Eliminamos el primer valor del arreglo
+
+let elementDeleted = names.shift()
+console.log(`Elemento que ha sido eliminado: ${elementDeleted}`)
+console.log(names)
+names.pop() // Eliminamos el ultimo valor del arreglo
+console.log(names)
+
+names.push("Eduardo") // Add un nuevo elemento al final del arreglo.
+console.log(names)
+names.unshift("Cordova", "Orellana") // Add un nuevo elemento al final del arreglo.
+console.log(names)
+
+console.log(jobs.indexOf("butcher")) //Devuelve la primera posicion del parametro encontrado
+console.log(jobs.lastIndexOf("designer")) //Devuelve la ultima posicion del parametro encontrado
+
+console.log("--------")
+let reverseArray = [5,4,3,2,1]
+console.log(reverseArray)
+console.log(reverseArray.reverse()) //Le indica al arreglo que debe darle reversa al orden de los valores
+
+console.log("--------")
+console.log(ages.join('-')) //separamos cada valor por el acracter que queramos.
+
+console.log(names)
+names.splice(3,0,"Eduardo") //Elimina los demas datos desde una posicion que ya le hemos especificado.
+console.log(names)
+
+console.log("--------")
+console.log(names.slice(4))
+console.log(names)
